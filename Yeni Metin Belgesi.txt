@@ -1,0 +1,52 @@
+Insertion Sort Projesi
+SORU: [22,27,16,2,18,6] -> Insertion Sort
+
+1- Yukarý verilen dizinin sort türüne göre aþamalarýný yazýnýz.
+
+ [22,27,16,2,18,6]
+ 22|,27,16,2,18,6
+ 22,27|,16,2,18,6
+ 22,16,27|,2,18,6
+ 16,22,27|,2,18,6
+ 16,22,2,27|,18,6
+ 16,2,22,27|,18,6
+ 2,16,22,27|,18,6
+ 2,16,22,18,27|,6
+ 2,16,18,22,27|,6
+ 2,16,18,22,6,27|
+ 2,16,18,6,22,27|
+ 2,16,6,18,22,27|
+ 2,6,16,18,22,27|
+
+2- Big-O gösterimini yazýnýz.
+
+ O(N^2)
+
+3- Time Complexity: Average case: Aradýðýmýz sayýnýn ortada olmasý,Worst case: Aradýðýmýz sayýnýn sonda olmasý, Best case: Aradýðýmýz sayýnýn dizinin en baþýnda olmasý. 
+Dizi sýralandýktan sonra 18 sayýsý hangi case kapsamýna girer? Yazýnýz.
+
+Insertion Sort türüne göreyaptýðýmýz sýralamada 18 sayýsý baþta ya da sonda deðildir bu nedenle Avarage Case kapsamýna girer.
+
+4-[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adýmýný yazýnýz.
+
+7|,3,5,8,2,9,4,15,6
+3,7|,5,8,2,9,4,14,6
+3,5,7|,8,2,9,4,14,6
+3,5,7,8|,2,9,4,14,6
+
+
+SORU: [16,21,11,8,12,22] Merge Sort
+
+Yukarýdaki dizinin sort türüne göre aþamalarýný yazýnýz.
+
+ 	[16,21,11,8,12,22]                  		Yapý ikiye bölünür.
+   [16,21,11]             [8,12,22]       	Tekrar bölüyoruz
+  [16]    [21,11]        [8]    [12,22]     	Tek eleman kalmasý için tekrar bölüyoruz.
+ [16]   [21] [11]       [8]   [12] [22]    	Bu yapýyý tekrar kademeli olarak birleþtiriyoruz. Birleþtirirken sýralama yapýyoruz.
+  [16]    [11,21]        [8]    [12,22]     	Bu diziyi tekrar sýralý olarak birleþtiriyoruz.
+   [11,16,21]              [8,12,22]        	Son birleþtirme iþlemini gerçekleþtiriyoruz.
+            [8,11,12,16,21,22]
+
+Big-O gösterimini yazýnýz.
+
+ O(n.logn)
