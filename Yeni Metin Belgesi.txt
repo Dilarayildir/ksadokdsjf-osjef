@@ -1,7 +1,7 @@
 Insertion Sort Projesi
 SORU: [22,27,16,2,18,6] -> Insertion Sort
 
-1- Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+1- YukarÄ± verilen dizinin sort tÃ¼rÃ¼ne gÃ¶re aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
 
  [22,27,16,2,18,6]
  22|,27,16,2,18,6
@@ -18,16 +18,16 @@ SORU: [22,27,16,2,18,6] -> Insertion Sort
  2,16,6,18,22,27|
  2,6,16,18,22,27|
 
-2- Big-O gösterimini yazınız.
+2- Big-O gÃ¶sterimini yazÄ±nÄ±z.
 
  O(N^2)
 
-3- Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması. 
-Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+3- Time Complexity: Average case: AradÄ±ÄŸÄ±mÄ±z sayÄ±nÄ±n ortada olmasÄ±,Worst case: AradÄ±ÄŸÄ±mÄ±z sayÄ±nÄ±n sonda olmasÄ±, Best case: AradÄ±ÄŸÄ±mÄ±z sayÄ±nÄ±n dizinin en baÅŸÄ±nda olmasÄ±. 
+Dizi sÄ±ralandÄ±ktan sonra 18 sayÄ±sÄ± hangi case kapsamÄ±na girer? YazÄ±nÄ±z.
 
-Insertion Sort türüne göreyaptığımız sıralamada 18 sayısı başta ya da sonda değildir bu nedenle Avarage Case kapsamına girer.
+Insertion Sort tÃ¼rÃ¼ne gÃ¶reyaptÄ±ÄŸÄ±mÄ±z sÄ±ralamada 18 sayÄ±sÄ± baÅŸta ya da sonda deÄŸildir bu nedenle Avarage Case kapsamÄ±na girer.
 
-4-[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+4-[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a gÃ¶re ilk 4 adÄ±mÄ±nÄ± yazÄ±nÄ±z.
 
 7|,3,5,8,2,9,4,15,6
 3,7|,5,8,2,9,4,14,6
@@ -37,16 +37,29 @@ Insertion Sort türüne göreyaptığımız sıralamada 18 sayısı başta ya da sonda deği
 
 SORU: [16,21,11,8,12,22] Merge Sort
 
-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+YukarÄ±daki dizinin sort tÃ¼rÃ¼ne gÃ¶re aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
 
- 	[16,21,11,8,12,22]                  		Yapı ikiye bölünür.
-   [16,21,11]             [8,12,22]       	Tekrar bölüyoruz
-  [16]    [21,11]        [8]    [12,22]     	Tek eleman kalması için tekrar bölüyoruz.
- [16]   [21] [11]       [8]   [12] [22]    	Bu yapıyı tekrar kademeli olarak birleştiriyoruz. Birleştirirken sıralama yapıyoruz.
-  [16]    [11,21]        [8]    [12,22]     	Bu diziyi tekrar sıralı olarak birleştiriyoruz.
-   [11,16,21]              [8,12,22]        	Son birleştirme işlemini gerçekleştiriyoruz.
+ 	[16,21,11,8,12,22]                  		YapÄ± ikiye bÃ¶lÃ¼nÃ¼r.
+   [16,21,11]             [8,12,22]       	Tekrar bÃ¶lÃ¼yoruz
+  [16]    [21,11]        [8]    [12,22]     	Tek eleman kalmasÄ± iÃ§in tekrar bÃ¶lÃ¼yoruz.
+ [16]   [21] [11]       [8]   [12] [22]    	Bu yapÄ±yÄ± tekrar kademeli olarak birleÅŸtiriyoruz. BirleÅŸtirirken sÄ±ralama yapÄ±yoruz.
+  [16]    [11,21]        [8]    [12,22]     	Bu diziyi tekrar sÄ±ralÄ± olarak birleÅŸtiriyoruz.
+   [11,16,21]              [8,12,22]        	Son birleÅŸtirme iÅŸlemini gerÃ§ekleÅŸtiriyoruz.
             [8,11,12,16,21,22]
 
-Big-O gösterimini yazınız.
+Big-O gÃ¶sterimini yazÄ±nÄ±z.
 
  O(n.logn)
+ 
+ Binary Search Tree Projesi
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
+Ã–rnek: root x'dir. root'un saÄŸÄ±ndan y bulunur. Solunda z bulunur vb.
+		                  7
+                   / \
+	                5     8
+                / \      \ 
+	              1   6      9
+              / \
+             0   3
+	                 \
+                    4
